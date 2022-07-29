@@ -1,10 +1,11 @@
 ---
 title: RMI_DATASET_CROW
+description: Bird density profiles provided by [RMI](https://meteo.be) (Belgium)
 permalink: /dataset/rmi_dataset_crow/
 toc: true
 ---
 
-RMI_DATASET_CROW provides **bird density profiles** derived from 9 weather radars in the Belgium, the Netherlands, France and Germany. Data are added daily and go back to October 2019.
+RMI_DATASET_CROW provides bird density profiles derived from 9 weather radars in the Belgium, the Netherlands, France and Germany. Data are added daily and go back to October 2019.
 
 ## Download
 
@@ -16,7 +17,7 @@ RMI_DATASET_CROW provides **bird density profiles** derived from 9 weather radar
 
 ## Metadata
 
-- **Publisher**: [Royal Meteorological Institute of Belgium](https://meteo.be)
+- **Publisher**: [Royal Meteorological Institute of Belgium (RMI)](https://meteo.be)
 - **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 - **Update frequency**: daily
 - **Start date**: 2019
