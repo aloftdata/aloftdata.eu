@@ -1,0 +1,8 @@
+---
+layout: radars # See _layouts/radars.html for page functionality
+title: Radars
+permalink: /radars/
+toc: true # Works because _layout/radars.html is based on "default" and titles have ids
+---
+
+This list of radars is derived from a **file maintained by OPERA** for their [radar map](https://www.eumetnet.eu/wp-content/themes/aeron-child/observations-programme/current-activities/opera/database/OPERA_Database/index.html). We last downloaded it on 2022-06-29 and converted it to a [CSV file](https://raw.githubusercontent.com/enram/aloftdata.eu/main/_data/OPERA_RADARS_DB.csv) for easier use. Data are not available for all radars. Data quality issues can be reported [here](https://github.com/enram/data-repository/issues/new).

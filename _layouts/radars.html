@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col">
+
+    {{ content }}
+
+    {% assign radars = site.data.OPERA_RADARS_DB | sort: "odimcode" %}
+    {% assign countries = radars | map: "country" | uniq | sort %}
+
+    {% for country in countries %}
+      <h2 id="{{ country | downcase | url_encode }}">{{ country }}</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Location</th>
+            <th>Coordinates</th>
+            <th>Height</th>
+            <th>Band</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <col width="10%">
+          <col width="30%">
+          <col width="30%">
+          <col width="10%">
+          <col width="10%">
+          <col width="10%">
+          {% for radar in radars %}
+            {% if radar.country == country and radar.odimcode != "" %}
+            <tr>
+              <td id="{{ radar.odimcode | downcase | url_encode }}">
+                <a href="#{{ radar.odimcode | downcase | url_encode }}"><code>{{ radar.odimcode }}</code></a>
+              </td>
+              <td>
+                {{ radar.location }}
+              </td>
+              <td>
+                <a href="http://www.openstreetmap.org/?mlat={{ radar.latitude }}&mlon={{ radar.longitude }}&zoom=12">{{ radar.latitude }}, {{ radar.longitude }}</a>
+              </td>
+              <td>
+                {{ radar.heightantenna | round }}
+              </td>
+              <td>
+                {{ radar.band }}
+              </td>
+              <td>
+                {{ radar.status }}
+              </td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+      {% endfor %}
+  </div>
+</div>
