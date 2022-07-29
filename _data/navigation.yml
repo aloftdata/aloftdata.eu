@@ -1,0 +1,30 @@
+# Links listed below will be included in your site navigation
+
+- text: Visualize
+  href: https://enram.github.io/crow/
+- text: Browse
+  href: /browse/
+- text: Technical info
+  menu:
+  - text: Datasets
+  - text: BALTRAD
+    href: /dataset/baltrad/
+  - text: RMI_DATASET_CROW
+    href: /dataset/rmi_dataset_crow/
+# - text: The Cajun Data Set
+#   href: /dataset/cajun/
+  - text: "---"
+  - text: File formats
+  - text: vpts csv
+    href: /format/vpts-csv/
+# - text: cajun csv
+#   href: /format/cajun-csv/
+# - text: vol2bird txt
+#   href: /format/vol2bird-txt/
+  - text: odim hdf5
+    href: /format/odim-hdf5/
+  - text: "---"
+  - text: Radars
+    href: /radars/
+- text: About
+  href: /about/
