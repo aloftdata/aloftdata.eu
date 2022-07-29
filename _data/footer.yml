@@ -1,0 +1,10 @@
+# Columns
+columns:
+  - description: >
+      Developed by the [Open science lab for biodiversity](https://oscibio.inbo.be/) in collaboration 
+      with partners.
+
+# License
+license: >
+  Content on this site is licensed under a [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/).
+  \| Theme: [petridish](https://github.com/peterdesmet/petridish)
