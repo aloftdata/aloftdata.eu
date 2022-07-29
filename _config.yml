@@ -1,8 +1,7 @@
 # SITE SETTINGS
 title: Aloft data
 description: "Bird movement data from European weather radars"
-url: "https://aloftdata.eu"
-baseurl: ""
+baseurl: "/aloftdata.eu"
 
 # SOCIAL PROFILES
 # None set
