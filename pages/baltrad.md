@@ -5,7 +5,7 @@ permalink: /baltrad/
 toc: true
 ---
 
-<!-- TODO: describe dataset, also verify datasets.md -->
+<!-- TODO: describe dataset -->
 <!--
 Files are grouped into directories by radar and year:
 
