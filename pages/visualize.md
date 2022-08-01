@@ -1,5 +1,6 @@
 ---
-title: Visualize
+title: Visualize data
+background: /assets/backgrounds/visualize.png
 permalink: /visualize/
 ---
 

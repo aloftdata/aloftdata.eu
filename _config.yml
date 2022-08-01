@@ -8,6 +8,9 @@ description: "Bird movement data from European weather radars"
 # THEME SETTINGS
 theme: minima # Fallback theme
 remote_theme: peterdesmet/petridish@2.0
+pages_on_home: # Custom attribute for _layouts/home.html
+  - visualize.md
+  - browse.md
 tweets_on_home: false
 colors:
   links: "#295cc9"

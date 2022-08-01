@@ -1,0 +1,41 @@
+---
+layout: base
+description: Template for homepage, adapted from and replacing petridish _layouts/home.html
+---
+
+{% assign twitter_feed = false %}
+{% if site.tweets_on_home and site.twitter_username %}
+  {% assign twitter_feed = true %}
+{% endif %}
+
+<div class="row">
+  <div class="{% if twitter_feed %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
+    <div class="row">
+      <div class="col">  
+        {% if site.pages_on_home %}
+          <div class="row cards">
+            {% for page_name in site.pages_on_home %}
+              {% assign post = site.pages | where: "name", page_name | first %}
+                {% if post %}
+                <div class="col-md-6{% if twitter_feed %} col-lg-4{% endif %}">
+                  {% include card.html %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {{ content }}
+
+      </div>
+
+      {% if twitter_feed %}
+        <div class="col-lg-4">
+          <a class="twitter-timeline" data-height="500" data-link-color="{{ site.colors.links }}" href="https://twitter.com/{{ site.twitter_username }}?ref_src=twsrc%5Etfw">
+            Tweets by {{ site.twitter_username }}
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      {% endif %}
+    </div>
+</div>

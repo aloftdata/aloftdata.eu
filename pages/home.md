@@ -6,4 +6,4 @@ background: /assets/backgrounds/home.jpg # https://unsplash.com/photos/6TRUeJoOp
 permalink: /
 ---
 
-This website is an initiative of the radar aeroecology community.
+Read more about the [BALTRAD dataset]({{ '/baltrad/' | relative_url }}).
