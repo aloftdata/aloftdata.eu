@@ -6,13 +6,11 @@
   href: /browse/
 - text: Resources
   menu:
-  - text: Datasets
+  - text: Dataset
   - text: BALTRAD
     href: /datasets/baltrad/
-  - text: RMI_DATASET_CROW
-    href: /datasets/rmi_dataset_crow/
-# - text: The Cajun Data Set
-#   href: /datasets/cajun/
+  - text: Other datasets
+    href: /datasets/
   - text: "---"
   - text: File formats
   - text: VPTS
