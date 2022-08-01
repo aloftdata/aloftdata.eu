@@ -1,7 +1,7 @@
 ---
 title: RMI_DATASET_CROW
 description: Bird density profiles provided by [RMI](https://meteo.be) (Belgium)
-permalink: /dataset/rmi_dataset_crow/
+permalink: /datasets/rmi_dataset_crow/
 toc: true
 ---
 
