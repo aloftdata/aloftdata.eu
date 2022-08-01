@@ -11,7 +11,7 @@ remote_theme: peterdesmet/petridish@2.0
 tweets_on_home: false
 colors:
   links: "#295cc9"
-  banner: "#032857"
+  banner: "#282949"
   footer: "#0d1626"
 font_serif: false
 
