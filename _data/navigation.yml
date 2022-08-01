@@ -1,24 +1,20 @@
 # Links listed below will be included in your site navigation
 
-- text: Visualize
-  href: https://enram.github.io/crow/
+# - text: Visualize
+#   href: https://enram.github.io/crow/
 - text: Browse
   href: /browse/
 - text: Resources
   menu:
   - text: Dataset
   - text: BALTRAD
-    href: /datasets/baltrad/
+    href: /baltrad/
   - text: Other datasets
     href: /datasets/
   - text: "---"
   - text: File formats
   - text: VPTS
-    href: /formats/vpts/
-# - text: cajun csv
-#   href: /formats/cajun-csv/
-# - text: vol2bird txt
-#   href: /formats/vol2bird-txt/
+    href: /vpts/
   - text: ODIM bird profile
     href: https://github.com/adokter/vol2bird/wiki/ODIM-bird-profile-format-specification
   - text: "---"

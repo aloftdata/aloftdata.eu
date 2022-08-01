@@ -6,12 +6,10 @@ toc: true
 
 ## BALTRAD
 
-<!-- TODO: update -->
-
 This _active_ dataset provides access to bird profile data from **European** weather radars. Data are added daily and go back to **2012**. Data are formatted in the [vpts]({{ 'formats/vpts' | relative_url }}) format.
 
 {: .btn-group}
-[Dataset description]({{ 'datasets/baltrad' | relative_url }}){: .btn .btn-sm .btn-primary }
+[Dataset description]({{ '/baltrad/' | relative_url }}){: .btn .btn-sm .btn-primary }
 [Browse data]({{ 'browse' | relative_url }}){: .btn .btn-sm .btn-light }
 
 ## RMI_DATASET_CROW
