@@ -8,6 +8,8 @@ VPTS is a community developed **data exchange format** for biological signals de
 
 VPTS is a tabular format (rows and columns), allowing data to be expressed as CSV files. Columns/fields are defined below using [Table Schema](https://specs.frictionlessdata.io/table-schema/) properties. The format aims to be simple rather than comprehensive, containing the most important information, rather than all the available metadata.
 
+VPTS is maintained at <https://github.com/enram/vpts>.
+
 ## Example
 
 ```
