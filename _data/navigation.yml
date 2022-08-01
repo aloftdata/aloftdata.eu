@@ -21,8 +21,8 @@
 #   href: /formats/cajun-csv/
 # - text: vol2bird txt
 #   href: /formats/vol2bird-txt/
-  - text: odim hdf5
-    href: /formats/odim-hdf5/
+  - text: ODIM bird profile
+    href: https://github.com/adokter/vol2bird/wiki/ODIM-bird-profile-format-specification
   - text: "---"
   - text: Radars
     href: /radars/
