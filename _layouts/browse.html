@@ -2,11 +2,14 @@
 layout: base
 description: Template for S3 bucket navigation
 ---
+<div class="row">
+  <div class="col">
+    <div id="breadcrumbs"></div>
+    <div id="listing" style="min-height: 400px"></div>
 
-<div id="breadcrumbs"></div>
-<div id="listing" style="min-height: 400px"></div>
-
-{{ content }}
+    {{ content }}
+  </div>
+</div>
 
 <script type="text/javascript">
   var S3BL_IGNORE_PATH = true;
