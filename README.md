@@ -1,6 +1,6 @@
-# Aloft data
+# Aloft
 
-This repository contains the source files for the website of [Aloft data](https://aloftdata.eu).
+This repository contains the source files for the [Aloft website](https://aloftdata.eu).
 
 ## Usage
 
