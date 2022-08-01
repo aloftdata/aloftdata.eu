@@ -1,16 +1,15 @@
 # Links listed below will be included in your site navigation
 
-# - text: Visualize
-#   href: https://enram.github.io/crow/
+- text: Visualize
+  href: /visualize/
 - text: Browse
   href: /browse/
+- text: Dataset
+  href: /baltrad/
 - text: Resources
   menu:
-  - text: Dataset
-  - text: BALTRAD
-    href: /baltrad/
-  - text: Other datasets
-    href: /datasets/
+  - text: Radars
+    href: /radars/
   - text: "---"
   - text: File formats
   - text: VPTS
@@ -18,7 +17,7 @@
   - text: ODIM bird profile
     href: https://github.com/adokter/vol2bird/wiki/ODIM-bird-profile-format-specification
   - text: "---"
-  - text: Radars
-    href: /radars/
+  - text: Other datasets
+    href: /datasets/
 - text: About
   href: /about/
