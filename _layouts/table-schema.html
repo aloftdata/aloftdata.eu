@@ -23,7 +23,7 @@ layout: base
           <col width="10%">
           <col width="20%">
         </colgroup>
-        {% assign table_schema = site.data.vpts-table-schema %}
+        {% assign table_schema = site.data.vpts-csv-table-schema %}
         {% for field in table_schema.fields %}
           <tr>
             <td id="{{ field.name | downcase | url_encode }}">

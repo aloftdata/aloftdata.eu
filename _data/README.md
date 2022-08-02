@@ -15,10 +15,10 @@ radars <- filter(radars, country != "") # Remove erroneous records that have no 
 write_csv(radars, "OPERA_RADARS_DB.csv", na = "")
 ```
 
-## vpts-table-schema.json
+## vpts-csv-table-schema.json
 
-Used in https://aloftdata.eu/formats/vpts/
+Used in https://aloftdata.eu/vpts-csv/
 
-Technical description of the VPTS file format. Maintained in a [separate repository](https://github.com/enram/vpts/).
+Technical description of the VPTS CSV file format. Maintained in a [separate repository](https://github.com/enram/vpts-csv/).
 
-To update the file, manually copy/paste it from [here](https://github.com/enram/vpts/blob/main/vpts-table-schema.json).
+To update the file, manually copy/paste it from [here](https://github.com/enram/vpts-csv/blob/main/vpts-csv-table-schema.json).

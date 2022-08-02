@@ -12,8 +12,8 @@
     href: /radars/
   - text: "---"
   - text: File formats
-  - text: VPTS
-    href: /vpts/
+  - text: VPTS CSV
+    href: /vpts-csv/
   - text: ODIM bird profile
     href: https://github.com/adokter/vol2bird/wiki/ODIM-bird-profile-format-specification
   - text: "---"
