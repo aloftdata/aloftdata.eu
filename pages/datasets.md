@@ -18,6 +18,7 @@ This historical dataset was collected for [Nilsson and Dokter et al. (2019)](htt
 
 {: .btn-group}
 [Dataset](https://doi.org/10.5281/zenodo.1172801){: .btn .btn-sm .btn-primary }
+[Browse data]({{ '/browse/?prefix=ecog-04003/' | relative_url }}){: .btn .btn-sm .btn-light }
 
 ## The Cajun Data Set
 
