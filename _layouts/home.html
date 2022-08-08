@@ -11,7 +11,10 @@ description: Template for homepage, adapted from and replacing petridish _layout
 <div class="row">
   <div class="{% if twitter_feed %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
     <div class="row">
-      <div class="col">  
+      <div class="col">
+
+        {{ content }}
+
         {% if site.pages_on_home %}
           <div class="row cards">
             {% for page_name in site.pages_on_home %}
@@ -24,9 +27,6 @@ description: Template for homepage, adapted from and replacing petridish _layout
             {% endfor %}
           </div>
         {% endif %}
-
-        {{ content }}
-
       </div>
 
       {% if twitter_feed %}
