@@ -6,7 +6,7 @@ title: Aloft
 
 # THEME SETTINGS
 theme: minima # Fallback theme
-remote_theme: peterdesmet/petridish@2.0
+remote_theme: peterdesmet/petridish@3.0
 pages_on_home: # Custom attribute for _layouts/home.html
   - visualize.md
   - browse.md
