@@ -1,6 +1,5 @@
 # SITE SETTINGS
 title: Aloft
-description: "Bird movement data from European weather radars"
 
 # SOCIAL PROFILES
 # None set
@@ -21,7 +20,6 @@ font_serif: false
 # BUILD SETTINGS
 markdown: kramdown
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
 exclude:
