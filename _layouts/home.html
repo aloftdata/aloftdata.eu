@@ -28,13 +28,10 @@ description: Template for homepage, adapted from and replacing petridish _layout
     
     {% if site.pages_on_home %}
       <div class="row cards">
-        {% for page_name in site.pages_on_home %}
-          {% assign item = site.pages | where: "name", page_name | first %}
-            {% if item %}
-            <div class="col-md-6{% if twitter_feed %} col-lg-4{% endif %}">
-              {% include card.html %}
-            </div>
-          {% endif %}
+        {% for item in site.pages_on_home %}
+          <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
+            {% include card.html %}
+          </div>
         {% endfor %}
       </div>
     {% endif %}
