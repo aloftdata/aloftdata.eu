@@ -11,6 +11,7 @@ pages_on_home: # Custom attribute for _layouts/home.html
   - visualize.md
   - browse.md
 tweets_on_home: false
+github_edit: true
 colors:
   links: "#295cc9"
   banner: "#282949"
@@ -29,10 +30,4 @@ exclude:
   - LICENSE
 
 # FRONTMATTER DEFAULTS
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: "/news/:year/:slug/"
+# None set
