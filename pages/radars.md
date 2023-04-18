@@ -8,4 +8,4 @@ toc: true # Works because _layout/radars.html is based on "default" and titles h
 
 This list of European weather radars is derived from a **file maintained by OPERA** for their [radar map](https://www.eumetnet.eu/wp-content/themes/aeron-child/observations-programme/current-activities/opera/database/OPERA_Database/index.html). Issues can be reported to [Marko Goreta](mailto:marko.goreta@cirus.dhz.hr).
 
-We most recently downloaded these data on 2022-06-29 and converted it to a [CSV file](https://raw.githubusercontent.com/enram/aloftdata.eu/main/_data/OPERA_RADARS_DB.csv) for easier use. Status `0` indicates that the radar is no longer active. Note that bird data is not available for all radars listed on this page.
+We most recently [downloaded](https://github.com/enram/aloftdata.eu/blob/main/_data/README.md) these data on 2023-04-18 (resulting [JSON file](https://raw.githubusercontent.com/enram/aloftdata.eu/main/_data/OPERA_RADARS_DB.json)). Status `0` indicates that the radar is no longer active. Note that bird data is not available for all radars listed on this page.
