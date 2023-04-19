@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% assign radars = site.data.OPERA_RADARS_DB | sort: "odimcode" %}
+{% assign radars = site.data.OPERA_RADARS_DB | where_exp: "item", "item contains 'odimcode'" | sort: "odimcode" %}
 {% assign countries = radars | map: "country" | uniq | sort %}
 
 {% for country in countries %}
@@ -33,8 +33,8 @@ layout: default
         <col width="5%">
       </colgroup>
       {% for radar in radars %}
+        {% if radar.country == country %}
         <tr>
-        {% if radar.country == country and radar.odimcode %}
           <td id="{{ radar.odimcode | downcase | url_encode }}">
             <a href="#{{ radar.odimcode | downcase | url_encode }}"><code>{{ radar.odimcode }}</code></a>
           </td>
