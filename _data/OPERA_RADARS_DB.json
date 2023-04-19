@@ -1,5 +1,33 @@
 [
   {
+    "number": "1322",
+    "country": "Austria",
+    "countryid": "LOWM90",
+    "oldcountryid": "OSaa",
+    "wmocode": "11124",
+    "odimcode": "atval",
+    "location": "Valluga",
+    "status": "0",
+    "latitude": "47.1575",
+    "longitude": "10.2131",
+    "heightofstation": "2809",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "224",
+    "startyear": "2007",
+    "heightantenna": "2824",
+    "diametrantenna": "",
+    "beam": "",
+    "gain": "",
+    "frequency": "5.61",
+    "wrwp": "",
+    "finishyear": "2019",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
     "number": "1399",
     "country": "Belgium",
     "countryid": "EBUM43",
@@ -24,7 +52,8 @@
     "frequency": "5.588",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1356",
@@ -51,7 +80,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1129",
@@ -78,7 +108,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1128",
@@ -105,7 +136,92 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1343",
+    "country": "Bulgaria",
+    "countryid": "BUaaS",
+    "oldcountryid": "",
+    "wmocode": "",
+    "odimcode": "",
+    "location": "Gelemenovo",
+    "status": "0",
+    "latitude": "42.271",
+    "longitude": "24.326",
+    "heightofstation": "250",
+    "band": "S",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "230",
+    "startyear": "1998",
+    "heightantenna": "256",
+    "diametrantenna": "4.5",
+    "beam": "1.5",
+    "gain": "45",
+    "frequency": "2.9",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1342",
+    "country": "Bulgaria",
+    "countryid": "BUaaX",
+    "oldcountryid": "",
+    "wmocode": "",
+    "odimcode": "",
+    "location": "Gelemenovo",
+    "status": "0",
+    "latitude": "42.271",
+    "longitude": "24.326",
+    "heightofstation": "250",
+    "band": "X",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "230",
+    "startyear": "1998",
+    "heightantenna": "256",
+    "diametrantenna": "4.5",
+    "beam": "0.8",
+    "gain": "40",
+    "frequency": "9.6",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1218",
+    "country": "Croatia",
+    "countryid": "LDZM42",
+    "oldcountryid": "RH42",
+    "wmocode": "14256",
+    "odimcode": "hrbil",
+    "location": "Bilogora",
+    "status": "0",
+    "latitude": "45.8835",
+    "longitude": "17.2005",
+    "heightofstation": "262",
+    "band": "S",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "1994",
+    "heightantenna": "279",
+    "diametrantenna": "3.7",
+    "beam": "2.1",
+    "gain": "38.5",
+    "frequency": "2.8",
+    "wrwp": "Y",
+    "finishyear": "2021",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1218",
@@ -132,7 +248,8 @@
     "frequency": "5.615",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1404",
@@ -159,7 +276,8 @@
     "frequency": "5.630",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1403",
@@ -186,7 +304,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1402",
@@ -213,7 +332,36 @@
     "frequency": "5.640",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1219",
+    "country": "Croatia",
+    "countryid": "LDZM43",
+    "oldcountryid": "RH43",
+    "wmocode": "14280",
+    "odimcode": "hrosi",
+    "location": "Osijek",
+    "status": "0",
+    "latitude": "45.5026",
+    "longitude": "18.5613",
+    "heightofstation": "88",
+    "band": "S",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "1995",
+    "heightantenna": "103",
+    "diametrantenna": "3.7",
+    "beam": "2.1",
+    "gain": "38.5",
+    "frequency": "2.8",
+    "wrwp": "Y",
+    "finishyear": "2022",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
   },
   {
     "number": "1405",
@@ -240,7 +388,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1388",
@@ -267,7 +416,120 @@
     "frequency": "2.8913",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1367",
+    "country": "Croatia",
+    "countryid": " ",
+    "oldcountryid": " ",
+    "wmocode": " ",
+    "odimcode": " ",
+    "location": "Rijeka",
+    "status": "0",
+    "latitude": "45.3293",
+    "longitude": "14.4676",
+    "heightofstation": "200",
+    "band": "X",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "30",
+    "startyear": "2013",
+    "heightantenna": "200",
+    "diametrantenna": "0.77",
+    "beam": "3",
+    "gain": "33",
+    "frequency": "9.41",
+    "wrwp": "",
+    "finishyear": "2015",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1369",
+    "country": "Croatia",
+    "countryid": " ",
+    "oldcountryid": " ",
+    "wmocode": " ",
+    "odimcode": " ",
+    "location": "Dubrovnik",
+    "status": "0",
+    "latitude": "42.6358",
+    "longitude": "18.1392",
+    "heightofstation": "315",
+    "band": "X",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "100",
+    "startyear": "2014",
+    "heightantenna": "321",
+    "diametrantenna": "0.75",
+    "beam": "3",
+    "gain": "35",
+    "frequency": "9.41",
+    "wrwp": "",
+    "finishyear": "2018",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1379",
+    "country": "Cyprus",
+    "countryid": "",
+    "oldcountryid": "",
+    "wmocode": "",
+    "odimcode": "",
+    "location": "Larnaka",
+    "status": "0",
+    "latitude": "34.9365",
+    "longitude": "33.5665",
+    "heightofstation": "",
+    "band": "X",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "",
+    "startyear": "",
+    "heightantenna": "",
+    "diametrantenna": "",
+    "beam": "",
+    "gain": "",
+    "frequency": "",
+    "wrwp": "Y",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
+  },
+  {
+    "number": "1380",
+    "country": "Cyprus",
+    "countryid": "",
+    "oldcountryid": "",
+    "wmocode": "",
+    "odimcode": "",
+    "location": "Eliovounos",
+    "status": "0",
+    "latitude": "34.771",
+    "longitude": "32.5475",
+    "heightofstation": "",
+    "band": "X",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "",
+    "startyear": "",
+    "heightantenna": "",
+    "diametrantenna": "",
+    "beam": "",
+    "gain": "",
+    "frequency": "",
+    "wrwp": "Y",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1132",
@@ -294,7 +556,8 @@
     "frequency": "5.63",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1131",
@@ -321,7 +584,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1290",
@@ -348,7 +612,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1150",
@@ -375,7 +640,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1151",
@@ -402,7 +668,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1149",
@@ -429,7 +696,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1341",
@@ -456,7 +724,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1325",
@@ -483,7 +752,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1326",
@@ -510,7 +780,8 @@
     "frequency": "5.635",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1155",
@@ -537,7 +808,36 @@
     "frequency": "5.638",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1154",
+    "country": "Finland",
+    "countryid": "EFKL43",
+    "oldcountryid": "FI43",
+    "wmocode": "2941",
+    "odimcode": "fiika",
+    "location": "Ikaalinen",
+    "status": "0",
+    "latitude": "61.7673",
+    "longitude": "23.0764",
+    "heightofstation": "116",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "250",
+    "startyear": "1993",
+    "heightantenna": "153",
+    "diametrantenna": "4.5",
+    "beam": "0.97",
+    "gain": "46",
+    "frequency": "5.645",
+    "wrwp": "",
+    "finishyear": "2022",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
   },
   {
     "number": "1406",
@@ -564,7 +864,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1377",
@@ -591,7 +892,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1157",
@@ -618,7 +920,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1156",
@@ -645,7 +948,8 @@
     "frequency": "5.615",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1266",
@@ -672,7 +976,8 @@
     "frequency": "5.618",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1398",
@@ -699,7 +1004,8 @@
     "frequency": "5.648",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1378",
@@ -726,7 +1032,8 @@
     "frequency": "5.628",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1158",
@@ -753,7 +1060,8 @@
     "frequency": "5.608",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1153",
@@ -780,7 +1088,8 @@
     "frequency": "5.649",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1400",
@@ -807,7 +1116,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1311",
@@ -834,7 +1144,8 @@
     "frequency": "5.639",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1373",
@@ -861,34 +1172,8 @@
     "frequency": "9.398",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
-  },
-  {
-    "number": "1375",
-    "country": "France",
-    "countryid": "LFPW43",
-    "oldcountryid": "FR43",
-    "wmocode": "7468",
-    "wigosid": "",
-    "odimcode": "",
-    "location": "Moucherotte",
-    "status": "0",
-    "latitude": "45.1477",
-    "longitude": "5.6394",
-    "heightofstation": "1895",
-    "band": "X",
-    "doppler": "Y",
-    "polarization": "D",
-    "maxrange": "256",
-    "startyear": "2014",
-    "heightantenna": "1909",
-    "diametrantenna": "1.8",
-    "beam": "1.3",
-    "gain": "42",
-    "frequency": "9.375",
-    "stratus": "",
-    "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1376",
@@ -915,7 +1200,36 @@
     "frequency": "9.474",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1375",
+    "country": "France",
+    "countryid": "LFPW43",
+    "oldcountryid": "FR43",
+    "wmocode": "7468",
+    "wigosid": "",
+    "odimcode": "",
+    "location": "Moucherotte",
+    "status": "0",
+    "latitude": "45.1477",
+    "longitude": "5.6394",
+    "heightofstation": "1895",
+    "band": "X",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "256",
+    "startyear": "2014",
+    "heightantenna": "1909",
+    "diametrantenna": "1.8",
+    "beam": "1.3",
+    "gain": "42",
+    "frequency": "9.375",
+    "stratus": "",
+    "cirusnimbus": "",
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1395",
@@ -942,7 +1256,8 @@
     "frequency": "9.475",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1396",
@@ -969,7 +1284,8 @@
     "frequency": "9.475",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1159",
@@ -996,7 +1312,8 @@
     "frequency": "5.612",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1394",
@@ -1023,7 +1340,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1179",
@@ -1050,7 +1368,8 @@
     "frequency": "2.801",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1303",
@@ -1077,7 +1396,8 @@
     "frequency": "5.628",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1305",
@@ -1104,7 +1424,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1173",
@@ -1131,7 +1452,8 @@
     "frequency": "2.804",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1160",
@@ -1158,7 +1480,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1161",
@@ -1185,7 +1508,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1164",
@@ -1212,7 +1536,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1304",
@@ -1239,7 +1564,8 @@
     "frequency": "5.637",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1177",
@@ -1266,7 +1592,8 @@
     "frequency": "2.81",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1163",
@@ -1293,7 +1620,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1171",
@@ -1320,7 +1648,8 @@
     "frequency": "5.637",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1374",
@@ -1347,7 +1676,8 @@
     "frequency": "9.375",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1302",
@@ -1374,7 +1704,8 @@
     "frequency": "5.644",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1306",
@@ -1401,7 +1732,8 @@
     "frequency": "5.638",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1352",
@@ -1428,7 +1760,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1166",
@@ -1455,7 +1788,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1167",
@@ -1482,7 +1816,8 @@
     "frequency": "2.817",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1176",
@@ -1509,7 +1844,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1175",
@@ -1536,7 +1872,8 @@
     "frequency": "2.805",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1174",
@@ -1563,7 +1900,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1168",
@@ -1590,7 +1928,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1169",
@@ -1617,7 +1956,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1172",
@@ -1644,7 +1984,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1170",
@@ -1671,7 +2012,36 @@
     "frequency": "5.636",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1141",
+    "country": "Germany",
+    "countryid": "EDZW61",
+    "oldcountryid": "DL61",
+    "wmocode": "10631",
+    "odimcode": "",
+    "location": "Frankfurt",
+    "status": "0",
+    "latitude": "50.052",
+    "longitude": "8.568",
+    "heightofstation": "103",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "230",
+    "startyear": "1998",
+    "heightantenna": "146",
+    "diametrantenna": "3.6",
+    "beam": "1",
+    "gain": "43.5",
+    "frequency": "5.625",
+    "wrwp": "Y",
+    "finishyear": "2010",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1370",
@@ -1698,7 +2068,8 @@
     "frequency": "9.375",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1371",
@@ -1725,7 +2096,8 @@
     "frequency": "9.375",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1389",
@@ -1752,7 +2124,36 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1137",
+    "country": "Germany",
+    "countryid": "EDZW45",
+    "oldcountryid": "DL45",
+    "wmocode": "10384",
+    "odimcode": "debln",
+    "location": "Berlin",
+    "status": "0",
+    "latitude": "52.4786",
+    "longitude": "13.3881",
+    "heightofstation": "50",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1991",
+    "heightantenna": "80",
+    "diametrantenna": "3.6",
+    "beam": "1",
+    "gain": "43.5",
+    "frequency": "5.626",
+    "wrwp": "N",
+    "finishyear": "2015",
+    "Single_RRR": " ",
+    "Composite_RRR": " ",
+    "source": "archive"
   },
   {
     "number": "1357",
@@ -1779,7 +2180,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1143",
@@ -1806,7 +2208,36 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1146",
+    "country": "Germany",
+    "countryid": "EDZW73",
+    "oldcountryid": "DL73",
+    "wmocode": "10780",
+    "odimcode": "deeis",
+    "location": "Eisberg",
+    "status": "0",
+    "latitude": "49.5414",
+    "longitude": "12.4044",
+    "heightofstation": "771",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1997",
+    "heightantenna": "799",
+    "diametrantenna": "4",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5.64",
+    "wrwp": "Y",
+    "finishyear": "2014",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1146",
@@ -1833,7 +2264,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1133",
@@ -1860,7 +2292,36 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1138",
+    "country": "Germany",
+    "countryid": "EDZW51",
+    "oldcountryid": "DL51",
+    "wmocode": "10410",
+    "odimcode": "deess",
+    "location": "Essen",
+    "status": "0",
+    "latitude": "51.407",
+    "longitude": "6.968",
+    "heightofstation": "153",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "230",
+    "startyear": "1991",
+    "heightantenna": "180",
+    "diametrantenna": "3.6",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5.62",
+    "wrwp": "Y",
+    "finishyear": "2012",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1138",
@@ -1887,7 +2348,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1147",
@@ -1914,7 +2376,36 @@
     "frequency": "5.67",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1139",
+    "country": "Germany",
+    "countryid": "EDZW52",
+    "oldcountryid": "DL52",
+    "wmocode": "10440",
+    "odimcode": "defld",
+    "location": "Flechtdorf",
+    "status": "0",
+    "latitude": "51.3119",
+    "longitude": "8.8033",
+    "heightofstation": "550",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1997",
+    "heightantenna": "623",
+    "diametrantenna": "4",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5.64",
+    "wrwp": "N",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1139",
@@ -1941,7 +2432,64 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1134",
+    "country": "Germany",
+    "countryid": "EDZW42",
+    "oldcountryid": "DL42",
+    "wmocode": "10147",
+    "odimcode": "deham",
+    "location": "Hamburg",
+    "status": "0",
+    "latitude": "53.6219",
+    "longitude": "9.9978",
+    "heightofstation": "16",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1990",
+    "heightantenna": "45",
+    "diametrantenna": "3.6",
+    "beam": "1",
+    "gain": "43.5",
+    "frequency": "5.62",
+    "wrwp": "N",
+    "finishyear": "2011",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
+  },
+  {
+    "number": "1136",
+    "country": "Germany",
+    "countryid": "EDZW44",
+    "oldcountryid": "DL44",
+    "wmocode": "10340",
+    "odimcode": "dehan",
+    "location": "Hannover",
+    "status": "0",
+    "latitude": "52.4631",
+    "longitude": "9.6983",
+    "heightofstation": "52",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1994",
+    "heightantenna": "80",
+    "diametrantenna": "4",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5.64",
+    "wrwp": "Y",
+    "finishyear": "2013",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1358",
@@ -1968,7 +2516,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1360",
@@ -1995,7 +2544,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1350",
@@ -2022,7 +2572,64 @@
     "frequency": "5.63",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1148",
+    "country": "Germany",
+    "countryid": "EDZW82",
+    "oldcountryid": "DL82",
+    "wmocode": "10871",
+    "odimcode": "demuc",
+    "location": "München",
+    "status": "0",
+    "latitude": "48.3372",
+    "longitude": "11.6128",
+    "heightofstation": "489",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1994",
+    "heightantenna": "511",
+    "diametrantenna": "3.6",
+    "beam": "1",
+    "gain": "43.5",
+    "frequency": "5.606",
+    "wrwp": " ",
+    "finishyear": "2014",
+    "Single_RRR": "N",
+    "Composite_RRR": "N",
+    "source": "archive"
+  },
+  {
+    "number": "1142",
+    "country": "Germany",
+    "countryid": "EDZW62",
+    "oldcountryid": "DL62",
+    "wmocode": "10557",
+    "odimcode": "deneu",
+    "location": "Neuhaus",
+    "status": "0",
+    "latitude": "50.5",
+    "longitude": "11.137",
+    "heightofstation": "847",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "230",
+    "startyear": "1994",
+    "heightantenna": "873",
+    "diametrantenna": "4",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5.62",
+    "wrwp": "Y",
+    "finishyear": "2012",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1142",
@@ -2049,7 +2656,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1144",
@@ -2076,7 +2684,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1351",
@@ -2103,7 +2712,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1359",
@@ -2130,7 +2740,36 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1135",
+    "country": "Germany",
+    "countryid": "EDZW43",
+    "oldcountryid": "DL43",
+    "wmocode": "10169",
+    "odimcode": "deros",
+    "location": "Rostock",
+    "status": "0",
+    "latitude": "54.1764",
+    "longitude": "12.0592",
+    "heightofstation": "1",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "180",
+    "startyear": "1995",
+    "heightantenna": "36",
+    "diametrantenna": "4",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5.64",
+    "wrwp": "Y",
+    "finishyear": "2014",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1135",
@@ -2157,7 +2796,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1145",
@@ -2184,7 +2824,8 @@
     "frequency": "5.6",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1140",
@@ -2211,7 +2852,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1315",
@@ -2238,7 +2880,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1316",
@@ -2265,7 +2908,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1180",
@@ -2292,7 +2936,8 @@
     "frequency": "5.618",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1318",
@@ -2319,7 +2964,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1182",
@@ -2346,7 +2992,8 @@
     "frequency": "2.708",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1181",
@@ -2373,7 +3020,8 @@
     "frequency": "2.816",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1317",
@@ -2400,7 +3048,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1183",
@@ -2427,7 +3076,8 @@
     "frequency": "5.61",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1185",
@@ -2454,7 +3104,8 @@
     "frequency": "5.61",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1401",
@@ -2481,7 +3132,8 @@
     "frequency": "5.635",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1186",
@@ -2508,7 +3160,8 @@
     "frequency": "5.61",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1301",
@@ -2535,7 +3188,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1362",
@@ -2562,7 +3216,8 @@
     "frequency": "5.45",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1365",
@@ -2589,7 +3244,8 @@
     "frequency": "9.375",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1393",
@@ -2616,7 +3272,8 @@
     "frequency": "9.355",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1363",
@@ -2643,7 +3300,8 @@
     "frequency": "5.52",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1189",
@@ -2670,7 +3328,8 @@
     "frequency": "5.61",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1407",
@@ -2697,7 +3356,8 @@
     "frequency": "5.45",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1188",
@@ -2724,7 +3384,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1187",
@@ -2751,7 +3412,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1397",
@@ -2778,7 +3440,764 @@
     "frequency": "5.61",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1201",
+    "country": "Italy",
+    "countryid": "LIIB56",
+    "oldcountryid": "IY56",
+    "wmocode": "16429",
+    "odimcode": "",
+    "location": "Trapani (AF)",
+    "status": "0",
+    "latitude": "37.92",
+    "longitude": "12.5",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "256",
+    "startyear": "",
+    "heightantenna": "30",
+    "diametrantenna": "2.44",
+    "beam": "1.5",
+    "gain": "40",
+    "frequency": "",
+    "wrwp": "N",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
+  },
+  {
+    "number": "1203",
+    "country": "Italy",
+    "countryid": "LIIB80",
+    "oldcountryid": "IY58",
+    "wmocode": "16522",
+    "odimcode": "",
+    "location": "Capo Caccia (AF)",
+    "status": "0",
+    "latitude": "40.57",
+    "longitude": "8.17",
+    "heightofstation": "220",
+    "band": "X",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "1972",
+    "heightantenna": "228",
+    "diametrantenna": "1.5",
+    "beam": "1.5",
+    "gain": "44",
+    "frequency": "9.375",
+    "wrwp": " ",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1386",
+    "country": "Italy",
+    "countryid": "",
+    "oldcountryid": "",
+    "wmocode": "",
+    "odimcode": "",
+    "location": "Monte Lauro - Buccheri (Syracuse) (CPD)",
+    "status": "0",
+    "latitude": "37.1126",
+    "longitude": "14.8357",
+    "heightofstation": "980",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2011",
+    "heightantenna": "992",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,9",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": " ",
+    "Composite_RRR": " ",
+    "source": "archive"
+  },
+  {
+    "number": "1387",
+    "country": "Italy",
+    "countryid": "",
+    "oldcountryid": "",
+    "wmocode": "",
+    "odimcode": "",
+    "location": "Monte Armidda -(CPD)",
+    "status": "0",
+    "latitude": "39.8222",
+    "longitude": "9.4938",
+    "heightofstation": "1261",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2016",
+    "heightantenna": "1273",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,10",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "N",
+    "source": "archive"
+  },
+  {
+    "number": "1268",
+    "country": "Italy",
+    "countryid": "LIIB41",
+    "oldcountryid": "IYah",
+    "wmocode": "16061",
+    "odimcode": "itbrc",
+    "location": "Bric della Croce",
+    "status": "0",
+    "latitude": "45.034",
+    "longitude": "7.733",
+    "heightofstation": "710",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "250",
+    "startyear": "2000",
+    "heightantenna": "743",
+    "diametrantenna": "4.2",
+    "beam": "0.9",
+    "gain": "44.9",
+    "frequency": "5.605",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1199",
+    "country": "Italy",
+    "countryid": "LIIB54",
+    "oldcountryid": "IY54",
+    "wmocode": "16320",
+    "odimcode": "itbri",
+    "location": "Brindisi (AF)",
+    "status": "0",
+    "latitude": "40.65",
+    "longitude": "17.95",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "400",
+    "startyear": "2005",
+    "heightantenna": "25",
+    "diametrantenna": "5",
+    "beam": "0.9",
+    "gain": "45",
+    "frequency": "5.641",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1310",
+    "country": "Italy",
+    "countryid": "LIIB51",
+    "oldcountryid": "IYaa",
+    "wmocode": "",
+    "odimcode": "itcos",
+    "location": "Concordia Sagittaria",
+    "status": "0",
+    "latitude": "45.695",
+    "longitude": "12.7867",
+    "heightofstation": "1.5",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "250",
+    "startyear": "2005",
+    "heightantenna": "19",
+    "diametrantenna": "4.3",
+    "beam": "1",
+    "gain": "45",
+    "frequency": "5.67",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1323",
+    "country": "Italy",
+    "countryid": "LIIB59",
+    "oldcountryid": "IYak",
+    "wmocode": "",
+    "odimcode": "itcro",
+    "location": "Monte Crocione-Lucca (CPD)",
+    "status": "0",
+    "latitude": "43.956",
+    "longitude": "10.607",
+    "heightofstation": "1026",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2007",
+    "heightantenna": "1038",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,8",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1202",
+    "country": "Italy",
+    "countryid": "LIIB57",
+    "oldcountryid": "IY57",
+    "wmocode": "16546",
+    "odimcode": "itdec",
+    "location": "Decimomannu (AF)",
+    "status": "0",
+    "latitude": "39.3397",
+    "longitude": "8.9692",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "256",
+    "startyear": "2005",
+    "heightantenna": "45",
+    "diametrantenna": "2.44",
+    "beam": "1.5",
+    "gain": "40",
+    "frequency": "5.625",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1309",
+    "country": "Italy",
+    "countryid": "LIIB56",
+    "oldcountryid": "IYac",
+    "wmocode": "16242",
+    "odimcode": "itfiu",
+    "location": "Fiumicino (CA)",
+    "status": "0",
+    "latitude": "41.91",
+    "longitude": "12.23",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "400",
+    "startyear": "2007",
+    "heightantenna": "62",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "45",
+    "frequency": "5.64",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1194",
+    "country": "Italy",
+    "countryid": "LIIB45",
+    "oldcountryid": "IY45",
+    "wmocode": "",
+    "odimcode": "itfog",
+    "location": "Fossalon di Grado",
+    "status": "0",
+    "latitude": "45.7267",
+    "longitude": "13.4775",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "480",
+    "startyear": "1997",
+    "heightantenna": "25",
+    "diametrantenna": "5",
+    "beam": "0.9",
+    "gain": "46",
+    "frequency": "5.54",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1272",
+    "country": "Italy",
+    "countryid": "LIIB47",
+    "oldcountryid": "IYai",
+    "wmocode": "",
+    "odimcode": "itgat",
+    "location": "Gattatico",
+    "status": "0",
+    "latitude": "44.7914",
+    "longitude": "10.4992",
+    "heightofstation": "35",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "500",
+    "startyear": "2002",
+    "heightantenna": "60",
+    "diametrantenna": "4.5",
+    "beam": "0.9",
+    "gain": "46",
+    "frequency": "5,454-5,660",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1198",
+    "country": "Italy",
+    "countryid": "LIIB52",
+    "oldcountryid": "IY52",
+    "wmocode": "16253",
+    "odimcode": "itgra",
+    "location": "Grazzanise (AF)",
+    "status": "0",
+    "latitude": "41.0536",
+    "longitude": "14.0742",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "256",
+    "startyear": "1996",
+    "heightantenna": "25",
+    "diametrantenna": "2.44",
+    "beam": "1.5",
+    "gain": "40",
+    "frequency": "5.625",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1192",
+    "country": "Italy",
+    "countryid": "LIIB43",
+    "oldcountryid": "IY43",
+    "wmocode": "16098",
+    "odimcode": "itist",
+    "location": "Istrana (AF)",
+    "status": "0",
+    "latitude": "45.6882",
+    "longitude": "12.0818",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "N",
+    "polarization": "S",
+    "maxrange": "256",
+    "startyear": "1995",
+    "heightantenna": "60",
+    "diametrantenna": "2.44",
+    "beam": "1.5",
+    "gain": "40",
+    "frequency": "5.625",
+    "wrwp": "N",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
+  },
+  {
+    "number": "1271",
+    "country": "Italy",
+    "countryid": "LIIB44",
+    "oldcountryid": "IYae",
+    "wmocode": "",
+    "odimcode": "itmac",
+    "location": "Macaion",
+    "status": "0",
+    "latitude": "46.4933",
+    "longitude": "11.2091",
+    "heightofstation": "1866",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "120",
+    "startyear": "2000",
+    "heightantenna": "1876",
+    "diametrantenna": "4.3",
+    "beam": "0.95",
+    "gain": "45",
+    "frequency": "5.58",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1270",
+    "country": "Italy",
+    "countryid": "LIIB53",
+    "oldcountryid": "IYag",
+    "wmocode": "",
+    "odimcode": "itmid",
+    "location": "Monte Mida",
+    "status": "0",
+    "latitude": "42.0578",
+    "longitude": "13.1772",
+    "heightofstation": "1710",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "480",
+    "startyear": "2006",
+    "heightantenna": "1750",
+    "diametrantenna": "2.4",
+    "beam": "1.6",
+    "gain": "40",
+    "frequency": "5.666",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1308",
+    "country": "Italy",
+    "countryid": "LIIB55",
+    "oldcountryid": "IYab",
+    "wmocode": "16080",
+    "odimcode": "itmil",
+    "location": "Milano-Linate (CA)",
+    "status": "0",
+    "latitude": "45.34",
+    "longitude": "9.29",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "400",
+    "startyear": "2008",
+    "heightantenna": "62",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "45",
+    "frequency": "5.64",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1347",
+    "country": "Italy",
+    "countryid": "LIIB61",
+    "oldcountryid": "IYao",
+    "wmocode": "",
+    "odimcode": "itmon",
+    "location": "Monte Il  Monte - Chieti (CPD)",
+    "status": "0",
+    "latitude": "41.939",
+    "longitude": "14.624",
+    "heightofstation": "692",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2008",
+    "heightantenna": "704",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,8",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1344",
+    "country": "Italy",
+    "countryid": "LIIB62",
+    "oldcountryid": "IYal",
+    "wmocode": "",
+    "odimcode": "itpet",
+    "location": "Monte Pettinascura - Cosenza (CPD)",
+    "status": "0",
+    "latitude": "39.373",
+    "longitude": "16.624",
+    "heightofstation": "1708",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2008",
+    "heightantenna": "1720",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,8",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1196",
+    "country": "Italy",
+    "countryid": "LIIB48",
+    "oldcountryid": "IY48",
+    "wmocode": "16158",
+    "odimcode": "itpis",
+    "location": "Pisa (AF)",
+    "status": "0",
+    "latitude": "43.6918",
+    "longitude": "10.3868",
+    "heightofstation": "0",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "400",
+    "startyear": "2005",
+    "heightantenna": "25",
+    "diametrantenna": "5",
+    "beam": "0.9",
+    "gain": "45",
+    "frequency": "5.64",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
+  },
+  {
+    "number": "1197",
+    "country": "Italy",
+    "countryid": "LIIB49",
+    "oldcountryid": "IYad",
+    "wmocode": "",
+    "odimcode": "itras",
+    "location": "Monte-Rasu",
+    "status": "0",
+    "latitude": "40.4225",
+    "longitude": "9.0053",
+    "heightofstation": "1259",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "500",
+    "startyear": "2005",
+    "heightantenna": "1300",
+    "diametrantenna": "4.2",
+    "beam": "0.9",
+    "gain": "45",
+    "frequency": "5.629",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1346",
+    "country": "Italy",
+    "countryid": "LIIB60",
+    "oldcountryid": "IYan",
+    "wmocode": "",
+    "odimcode": "itser",
+    "location": "Monte Serano - Perugia (CPD)",
+    "status": "0",
+    "latitude": "42.856",
+    "longitude": "12.791",
+    "heightofstation": "1428",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2008",
+    "heightantenna": "1440",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,8",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1267",
+    "country": "Italy",
+    "countryid": "LIIB42",
+    "oldcountryid": "IYaf",
+    "wmocode": "",
+    "odimcode": "itset",
+    "location": "Settepani",
+    "status": "0",
+    "latitude": "44.25",
+    "longitude": "8.2",
+    "heightofstation": "1384",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "360",
+    "startyear": "2003",
+    "heightantenna": "1395",
+    "diametrantenna": "4.2",
+    "beam": "0.9",
+    "gain": "44.9",
+    "frequency": "5.64",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1195",
+    "country": "Italy",
+    "countryid": "LIIB46",
+    "oldcountryid": "IY46",
+    "wmocode": "16144",
+    "odimcode": "itspc",
+    "location": "S. Pietro Capofiume",
+    "status": "0",
+    "latitude": "44.6547",
+    "longitude": "11.6236",
+    "heightofstation": "11",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "500",
+    "startyear": "1993",
+    "heightantenna": "31",
+    "diametrantenna": "4.5",
+    "beam": "0.9",
+    "gain": "46",
+    "frequency": "5,454-5,660",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1193",
+    "country": "Italy",
+    "countryid": "LIIB50",
+    "oldcountryid": "IY44",
+    "wmocode": "",
+    "odimcode": "itteo",
+    "location": "Teolo",
+    "status": "0",
+    "latitude": "45.3628",
+    "longitude": "11.6736",
+    "heightofstation": "472",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "250",
+    "startyear": "1988",
+    "heightantenna": "484.5",
+    "diametrantenna": "4.3",
+    "beam": "1",
+    "gain": "45",
+    "frequency": "5.607",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1345",
+    "country": "Italy",
+    "countryid": "LIIB58",
+    "oldcountryid": "IYam",
+    "wmocode": "",
+    "odimcode": "itzou",
+    "location": "Monte Zoufplan - Udine (CPD)",
+    "status": "0",
+    "latitude": "46.556",
+    "longitude": "12.974",
+    "heightofstation": "1999",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2009",
+    "heightantenna": "2011",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "44.5",
+    "frequency": "5,43-5,8",
+    "wrwp": "",
+    "finishyear": "",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
+  },
+  {
+    "number": "1191",
+    "country": "Italy",
+    "countryid": "LIB90",
+    "oldcountryid": "IYaj",
+    "wmocode": " ",
+    "odimcode": " ",
+    "location": "Spino d’Adda (OT)",
+    "status": "0",
+    "latitude": "45.4",
+    "longitude": "9.5",
+    "heightofstation": " ",
+    "band": "S",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "150",
+    "startyear": "1979",
+    "heightantenna": "80",
+    "diametrantenna": " ",
+    "beam": " ",
+    "gain": " ",
+    "frequency": " ",
+    "wrwp": "N",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1327",
@@ -2805,7 +4224,8 @@
     "frequency": "5.66",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1366",
@@ -2832,7 +4252,8 @@
     "frequency": "9.41",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1206",
@@ -2859,7 +4280,8 @@
     "frequency": "5.647",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1207",
@@ -2886,7 +4308,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1385",
@@ -2913,7 +4336,8 @@
     "frequency": "5.633",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1320",
@@ -2940,7 +4364,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1353",
@@ -2967,7 +4392,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1286",
@@ -2994,7 +4420,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1392",
@@ -3021,7 +4448,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1324",
@@ -3048,7 +4476,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1269",
@@ -3075,7 +4504,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1349",
@@ -3102,7 +4532,36 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1208",
+    "country": "Norway",
+    "countryid": "ENMI41",
+    "oldcountryid": "NO41",
+    "wmocode": "1499",
+    "odimcode": "noosl",
+    "location": "Oslo",
+    "status": "0",
+    "latitude": "59.855",
+    "longitude": "10.379",
+    "heightofstation": "",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "1987",
+    "heightantenna": "466",
+    "diametrantenna": "",
+    "beam": "",
+    "gain": "",
+    "frequency": "",
+    "wrwp": "Y",
+    "finishyear": "",
+    "Single_RRR": "Y",
+    "Composite_RRR": "N",
+    "source": "archive"
   },
   {
     "number": "1276",
@@ -3129,7 +4588,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1300",
@@ -3156,7 +4616,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1391",
@@ -3183,7 +4644,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1348",
@@ -3210,7 +4672,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "453",
@@ -3237,7 +4700,8 @@
     "frequency": "5.66",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1278",
@@ -3264,7 +4728,8 @@
     "frequency": "5.65",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1213",
@@ -3291,7 +4756,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1265",
@@ -3318,7 +4784,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1281",
@@ -3345,7 +4812,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1214",
@@ -3372,7 +4840,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1280",
@@ -3399,7 +4868,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1277",
@@ -3426,7 +4896,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1216",
@@ -3453,7 +4924,8 @@
     "frequency": "5.63",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1215",
@@ -3480,7 +4952,8 @@
     "frequency": "5.64",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1368",
@@ -3507,7 +4980,8 @@
     "frequency": "5.63",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1390",
@@ -3534,7 +5008,8 @@
     "frequency": "5.61",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1407",
@@ -3561,7 +5036,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1381",
@@ -3588,7 +5064,8 @@
     "frequency": "5.25",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1291",
@@ -3615,7 +5092,8 @@
     "frequency": "2.912",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1293",
@@ -3642,7 +5120,8 @@
     "frequency": "2.945",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1296",
@@ -3669,7 +5148,8 @@
     "frequency": "5.531",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1297",
@@ -3696,7 +5176,8 @@
     "frequency": "5.637",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1292",
@@ -3723,7 +5204,36 @@
     "frequency": "2.965",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1298",
+    "country": "Romania",
+    "countryid": "YRBK41",
+    "oldcountryid": "RDOR",
+    "wmocode": "15077",
+    "odimcode": "roopa",
+    "location": "Oradea",
+    "status": "1",
+    "latitude": "47.0900",
+    "longitude": "21.9400",
+    "heightofstation": "249",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "2000",
+    "heightantenna": "275",
+    "diametrantenna": "4.2",
+    "beam": "1",
+    "gain": "45",
+    "frequency": "5.625",
+    "wrwp": "Y",
+    "finishyear": "",
+    "Single_RRR": " ",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1295",
@@ -3750,7 +5260,8 @@
     "frequency": "2.965",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1294",
@@ -3777,7 +5288,8 @@
     "frequency": "2.935",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1329",
@@ -3804,7 +5316,8 @@
     "frequency": "2.78",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1336",
@@ -3831,7 +5344,8 @@
     "frequency": "2.94",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1355",
@@ -3858,7 +5372,8 @@
     "frequency": "9.41",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1354",
@@ -3885,7 +5400,8 @@
     "frequency": "2.95",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1332",
@@ -3912,7 +5428,8 @@
     "frequency": "2.98",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1334",
@@ -3939,7 +5456,8 @@
     "frequency": "2.83",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1328",
@@ -3966,7 +5484,8 @@
     "frequency": "2.82",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1384",
@@ -3993,7 +5512,8 @@
     "frequency": "2.86",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1338",
@@ -4020,7 +5540,8 @@
     "frequency": "2.98",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1340",
@@ -4047,7 +5568,8 @@
     "frequency": "2.98",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1339",
@@ -4074,7 +5596,8 @@
     "frequency": "2.83",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1333",
@@ -4101,7 +5624,8 @@
     "frequency": "2.92",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1330",
@@ -4128,7 +5652,8 @@
     "frequency": "2.78",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1337",
@@ -4155,7 +5680,8 @@
     "frequency": "2.98",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1335",
@@ -4182,7 +5708,8 @@
     "frequency": "2.94",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1331",
@@ -4209,7 +5736,36 @@
     "frequency": "2.89",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1247",
+    "country": "Slovak Republic",
+    "countryid": "LZIB41",
+    "oldcountryid": "SQ41",
+    "wmocode": "11812",
+    "odimcode": "skjav",
+    "location": "Maly Javornik",
+    "status": "1",
+    "latitude": "48.2561",
+    "longitude": "17.1531",
+    "heightofstation": "585",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "1998",
+    "heightantenna": "4.27",
+    "diametrantenna": "1",
+    "beam": "45.2",
+    "gain": "5.605",
+    "frequency": "Y",
+    "wrwp": "",
+    "finishyear": "600",
+    "Single_RRR": "",
+    "Composite_RRR": "Y",
+    "source": "archive"
   },
   {
     "number": "1247",
@@ -4236,7 +5792,36 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1248",
+    "country": "Slovak Republic",
+    "countryid": "LZIB51",
+    "oldcountryid": "SQ51",
+    "wmocode": "11958",
+    "odimcode": "skkoj",
+    "location": "Kojsovska hola",
+    "status": "1",
+    "latitude": "48.7826",
+    "longitude": "20.9872",
+    "heightofstation": "1240",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "200",
+    "startyear": "2005",
+    "heightantenna": "4.3",
+    "diametrantenna": "1",
+    "beam": "44",
+    "gain": "5.617",
+    "frequency": "Y",
+    "wrwp": "",
+    "finishyear": "1256",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
   },
   {
     "number": "1248",
@@ -4263,7 +5848,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1382",
@@ -4290,7 +5876,8 @@
     "frequency": "5.63",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1383",
@@ -4317,7 +5904,8 @@
     "frequency": "5.615",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1204",
@@ -4344,7 +5932,8 @@
     "frequency": "5.623",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1364",
@@ -4371,7 +5960,8 @@
     "frequency": "5.633",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1244",
@@ -4398,7 +5988,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1241",
@@ -4425,7 +6016,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1236",
@@ -4452,7 +6044,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1237",
@@ -4479,7 +6072,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1232",
@@ -4506,7 +6100,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1246",
@@ -4533,7 +6128,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1233",
@@ -4560,7 +6156,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1242",
@@ -4587,7 +6184,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1235",
@@ -4614,7 +6212,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1245",
@@ -4641,7 +6240,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1239",
@@ -4668,7 +6268,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1243",
@@ -4695,7 +6296,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1240",
@@ -4722,7 +6324,8 @@
     "frequency": "5.6",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1234",
@@ -4749,7 +6352,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1238",
@@ -4776,7 +6380,8 @@
     "frequency": "5.62",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1274",
@@ -4803,7 +6408,36 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1222",
+    "country": "Sweden",
+    "countryid": "ESWI46",
+    "oldcountryid": "SE46",
+    "wmocode": "2451",
+    "odimcode": "searl",
+    "location": "Stockholm-Arlanda",
+    "status": "1",
+    "latitude": "59.6544",
+    "longitude": "17.9463",
+    "heightofstation": "38",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "1986",
+    "heightantenna": "74",
+    "diametrantenna": "4.2",
+    "beam": "0.9",
+    "gain": "44",
+    "frequency": "5.605",
+    "wrwp": "",
+    "finishyear": "2019",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
   },
   {
     "number": "1288",
@@ -4830,7 +6464,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1223",
@@ -4857,7 +6492,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1224",
@@ -4884,7 +6520,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1228",
@@ -4911,7 +6548,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1225",
@@ -4938,7 +6576,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1231",
@@ -4965,7 +6604,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1229",
@@ -4992,7 +6632,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1227",
@@ -5019,7 +6660,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1226",
@@ -5046,7 +6688,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1230",
@@ -5073,7 +6716,36 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1289",
+    "country": "Sweden",
+    "countryid": "ESWI49",
+    "oldcountryid": "SE49",
+    "wmocode": "2600",
+    "odimcode": "sevar",
+    "location": "Vara",
+    "status": "0",
+    "latitude": "58.2556",
+    "longitude": "12.8260",
+    "heightofstation": "128",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "2002",
+    "heightantenna": "164",
+    "diametrantenna": "4.2",
+    "beam": "0.9",
+    "gain": "44",
+    "frequency": "5.605",
+    "wrwp": "",
+    "finishyear": "2015",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
   },
   {
     "number": "1289",
@@ -5100,7 +6772,8 @@
     "frequency": "5.605",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1249",
@@ -5127,7 +6800,8 @@
     "frequency": "5.45",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1250",
@@ -5154,7 +6828,8 @@
     "frequency": "5.43",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1251",
@@ -5181,7 +6856,8 @@
     "frequency": "5.455",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1361",
@@ -5208,7 +6884,8 @@
     "frequency": "5.468",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1372",
@@ -5235,7 +6912,36 @@
     "frequency": "5.433",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
+  },
+  {
+    "number": "1261",
+    "country": "United Kingdom",
+    "countryid": "EGRR53",
+    "oldcountryid": "UK53",
+    "wmocode": "3146",
+    "odimcode": "",
+    "location": "Corse Hill",
+    "status": "0",
+    "latitude": "55.68",
+    "longitude": "-4.23",
+    "heightofstation": "",
+    "band": "C",
+    "doppler": "",
+    "polarization": "",
+    "maxrange": "255",
+    "startyear": "1991",
+    "heightantenna": "385",
+    "diametrantenna": "",
+    "beam": "",
+    "gain": "",
+    "frequency": "",
+    "wrwp": "",
+    "finishyear": "2015",
+    "Single_RRR": "",
+    "Composite_RRR": "",
+    "source": "archive"
   },
   {
     "number": "1255",
@@ -5262,7 +6968,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1254",
@@ -5289,7 +6996,8 @@
     "frequency": "5.622",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1252",
@@ -5316,7 +7024,8 @@
     "frequency": "5.608",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1264",
@@ -5343,7 +7052,8 @@
     "frequency": "5.609",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1258",
@@ -5370,7 +7080,8 @@
     "frequency": "5.633",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1312",
@@ -5397,7 +7108,8 @@
     "frequency": "5.627",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1262",
@@ -5424,7 +7136,8 @@
     "frequency": "5.624",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1253",
@@ -5451,7 +7164,8 @@
     "frequency": "5.643",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1259",
@@ -5478,7 +7192,8 @@
     "frequency": "5.624",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1321",
@@ -5505,7 +7220,8 @@
     "frequency": "5.628",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1257",
@@ -5532,7 +7248,8 @@
     "frequency": "5.624",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1260",
@@ -5559,7 +7276,8 @@
     "frequency": "5.625",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1263",
@@ -5586,7 +7304,8 @@
     "frequency": "5.624",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1319",
@@ -5613,7 +7332,8 @@
     "frequency": "5.643",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1256",
@@ -5640,7 +7360,8 @@
     "frequency": "5.645",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   },
   {
     "number": "1313",
@@ -5667,6 +7388,7 @@
     "frequency": "5.63",
     "stratus": "",
     "cirusnimbus": "",
-    "wrwp": ""
+    "wrwp": "",
+    "source": "main"
   }
 ]
