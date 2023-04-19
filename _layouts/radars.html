@@ -18,17 +18,19 @@ layout: default
         <th>Coordinates</th>
         <th>Height</th>
         <th>Band</th>
+        <th>Pol</th>
         <th>Status</th>
       </tr>
     </thead>
     <tbody>
       <colgroup>
         <col width="10%">
-        <col width="30%">
-        <col width="30%">
-        <col width="10%">
-        <col width="10%">
-        <col width="10%">
+        <col width="35%">
+        <col width="25%">
+        <col width="5%">
+        <col width="5%">
+        <col width="5%">
+        <col width="5%">
       </colgroup>
       {% for radar in radars %}
         <tr>
@@ -47,6 +49,9 @@ layout: default
           </td>
           <td>
             {{ radar.band }}
+          </td>
+          <td>
+            {{ radar.polarization }}
           </td>
           <td{% if radar.status == "0" %} class="text-danger"{% endif %}>
             {{ radar.status }}
