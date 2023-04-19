@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% assign radars = site.data.OPERA_RADARS_DB | sort: "odimcode" %}
+{% assign radars = site.data.OPERA_RADARS_DB | where_exp: "item", "item contains 'odimcode'" | sort: "odimcode" %}
 {% assign countries = radars | map: "country" | uniq | sort %}
 
 {% for country in countries %}
@@ -18,26 +18,29 @@ layout: default
         <th>Coordinates</th>
         <th>Height</th>
         <th>Band</th>
+        <th>Pol</th>
         <th>Status</th>
       </tr>
     </thead>
     <tbody>
       <colgroup>
         <col width="10%">
-        <col width="30%">
-        <col width="30%">
-        <col width="10%">
-        <col width="10%">
-        <col width="10%">
+        <col width="35%">
+        <col width="25%">
+        <col width="5%">
+        <col width="5%">
+        <col width="5%">
+        <col width="5%">
       </colgroup>
       {% for radar in radars %}
-        {% if radar.country == country and radar.odimcode != "" %}
+        {% if radar.country == country %}
         <tr>
           <td id="{{ radar.odimcode | downcase | url_encode }}">
             <a href="#{{ radar.odimcode | downcase | url_encode }}"><code>{{ radar.odimcode }}</code></a>
           </td>
           <td{% if radar.status == "0" %} class="text-danger"{% endif %}>
             {{ radar.location }}
+            {% if radar.finishyear %}({{radar.startyear}} - {{ radar.finishyear }}){% endif %}
           </td>
           <td>
             <a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ radar.latitude }},{{ radar.longitude }}&zoom=12">{{ radar.latitude }}, {{ radar.longitude }}</a>
@@ -47,6 +50,9 @@ layout: default
           </td>
           <td>
             {{ radar.band }}
+          </td>
+          <td>
+            {{ radar.polarization }}
           </td>
           <td{% if radar.status == "0" %} class="text-danger"{% endif %}>
             {{ radar.status }}

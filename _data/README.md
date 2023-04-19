@@ -1,19 +1,10 @@
-## OPERA_RADARS_DB.csv
+## OPERA_RADARS_DB.json
 
 Used in https://aloftdata.eu/radars/
 
-Radar metadata. Derived from `OPERA_RADARS_DB.json` hosted and maintained by OPERA for their [radar map](https://www.eumetnet.eu/wp-content/themes/aeron-child/observations-programme/current-activities/opera/database/OPERA_Database/index.html) and converted to CSV for easier download.
+Radar metadata. Derived from `OPERA_RADARS_DB.json` and `OPERA_RADARS_ARH_DB.json` hosted and maintained by OPERA for their [radar map](https://www.eumetnet.eu/wp-content/themes/aeron-child/observations-programme/current-activities/opera/database/OPERA_Database/index.html).
 
-To update the file, run the following code:
-
-```R
-library(jsonlite)
-library(dplyr)
-library(readr)
-radars <- read_json("http://eumetnet.eu/wp-content/themes/aeron-child/observations-programme/current-activities/opera/database/OPERA_Database/OPERA_RADARS_DB.json", simplifyDataFrame = TRUE)
-radars <- filter(radars, country != "") # Remove erroneous records that have no country assigned
-write_csv(radars, "OPERA_RADARS_DB.csv", na = "")
-```
+To update the file, run the code in [this script](OPERA_RADAR_DB.R).
 
 ## vpts-csv-table-schema.json
 
