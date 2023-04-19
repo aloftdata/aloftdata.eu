@@ -40,6 +40,7 @@ layout: default
           </td>
           <td{% if radar.status == "0" %} class="text-danger"{% endif %}>
             {{ radar.location }}
+            {% if radar.finishyear %}({{radar.startyear}} - {{ radar.finishyear }}){% endif %}
           </td>
           <td>
             <a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ radar.latitude }},{{ radar.longitude }}&zoom=12">{{ radar.latitude }}, {{ radar.longitude }}</a>
