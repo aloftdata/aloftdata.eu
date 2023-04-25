@@ -4896,7 +4896,6 @@
     "beam": "45.2",
     "gain": "5.605",
     "frequency": "Y",
-    "finishyear": "600",
     "Composite_RRR": "Y",
     "source": "archive"
   },
@@ -4946,7 +4945,6 @@
     "beam": "44",
     "gain": "5.617",
     "frequency": "Y",
-    "finishyear": "1256",
     "source": "archive"
   },
   {
