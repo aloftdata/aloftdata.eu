@@ -238,10 +238,6 @@
   {
     "number": "1367",
     "country": "Croatia",
-    "countryid": " ",
-    "oldcountryid": " ",
-    "wmocode": " ",
-    "odimcode": " ",
     "location": "Rijeka",
     "status": "0",
     "latitude": "45.3293",
@@ -263,10 +259,6 @@
   {
     "number": "1369",
     "country": "Croatia",
-    "countryid": " ",
-    "oldcountryid": " ",
-    "wmocode": " ",
-    "odimcode": " ",
     "location": "Dubrovnik",
     "status": "0",
     "latitude": "42.6358",
@@ -1855,8 +1847,6 @@
     "frequency": "5.626",
     "wrwp": "N",
     "finishyear": "2015",
-    "Single_RRR": " ",
-    "Composite_RRR": " ",
     "source": "archive"
   },
   {
@@ -2235,7 +2225,6 @@
     "beam": "1",
     "gain": "43.5",
     "frequency": "5.606",
-    "wrwp": " ",
     "finishyear": "2014",
     "Single_RRR": "N",
     "Composite_RRR": "N",
@@ -2944,23 +2933,16 @@
     "country": "Italy",
     "countryid": "LIB90",
     "oldcountryid": "IYaj",
-    "wmocode": " ",
-    "odimcode": " ",
     "location": "Spino d’Adda (OT)",
     "status": "0",
     "latitude": "45.4",
     "longitude": "9.5",
-    "heightofstation": " ",
     "band": "S",
     "doppler": "Y",
     "polarization": "S",
     "maxrange": "150",
     "startyear": "1979",
     "heightantenna": "80",
-    "diametrantenna": " ",
-    "beam": " ",
-    "gain": " ",
-    "frequency": " ",
     "wrwp": "N",
     "Single_RRR": "Y",
     "Composite_RRR": "Y",
@@ -3229,7 +3211,6 @@
     "beam": "1.5",
     "gain": "44",
     "frequency": "9.375",
-    "wrwp": " ",
     "source": "archive"
   },
   {
@@ -3552,8 +3533,6 @@
     "beam": "1",
     "gain": "44.5",
     "frequency": "5,43-5,9",
-    "Single_RRR": " ",
-    "Composite_RRR": " ",
     "source": "archive"
   },
   {
@@ -4509,7 +4488,6 @@
     "gain": "45",
     "frequency": "5.625",
     "wrwp": "Y",
-    "Single_RRR": " ",
     "Composite_RRR": "Y",
     "source": "archive"
   },
