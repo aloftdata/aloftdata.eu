@@ -15,9 +15,8 @@ radars_archive <- jsonlite::read_json(
 radars_archive <-
   radars_archive %>%
   dplyr::rename(
-    latitude = `latitude  (°)`,
-    longitude = `longitude (°)`,
-    beam = `beam (º)`,
+    latitude = `latitude `,
+    diametrantenna = `DiameterAntenna (m)`, # sic
     wrwp = WRWP
   ) %>%
   dplyr::mutate(source = "archive")
