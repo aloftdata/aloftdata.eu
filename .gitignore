@@ -10,3 +10,7 @@ vendor/
 
 # Mac OS X
 .DS_Store
+
+# History files
+.Rhistory
+.Rapp.history
