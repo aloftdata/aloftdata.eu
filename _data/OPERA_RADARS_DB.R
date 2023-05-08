@@ -12,6 +12,9 @@ radars_archive <- jsonlite::read_json(
 )
 
 # Clean data
+radars_main <-
+  radars_main %>%
+  dplyr::mutate(source = "main")
 radars_archive <-
   radars_archive %>%
   dplyr::rename(
@@ -20,9 +23,6 @@ radars_archive <-
     wrwp = WRWP
   ) %>%
   dplyr::mutate(source = "archive")
-radars_main <-
-  radars_main %>%
-  dplyr::mutate(source = "main")
 
 # Combine and sort data
 radars <-
