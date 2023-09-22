@@ -11,18 +11,9 @@ radars_archive <- jsonlite::read_json(
   simplifyDataFrame = TRUE
 )
 
-# Clean data
-radars_main <-
-  radars_main %>%
-  dplyr::mutate(source = "main")
-radars_archive <-
-  radars_archive %>%
-  dplyr::rename(
-    latitude = `latitude `,
-    diametrantenna = `DiameterAntenna (m)`, # sic
-    wrwp = WRWP
-  ) %>%
-  dplyr::mutate(source = "archive")
+# Add source column
+radars_main <- dplyr::mutate(radars_main, source = "main")
+radars_archive <- dplyr::mutate(radars_archive, source = "archive")
 
 # Combine and sort data
 radars <-
