@@ -5525,6 +5525,28 @@
     "frequency": "5.605",
     "source": "main"
   },
+  {
+    "number": "1225",
+    "country": "Sweden",
+    "countryid": "ESWI51",
+    "oldcountryid": "SE51",
+    "wmocode": "2666",
+    "odimcode": "sekkr",
+    "location": "Karlskrona",
+    "status": "0",
+    "latitude": "56.2955",
+    "longitude": "15.6102",
+    "heightofstation": "106",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "S",
+    "maxrange": "240",
+    "startyear": "1990",
+    "heightantenna": "123",
+    "diameterantenna": "4.2",
+    "beam": "0.9",
+    "gain": "44.9",
+    "frequency": "5.604",
     "source": "archive"
   },
   {
