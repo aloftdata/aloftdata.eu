@@ -3961,6 +3961,28 @@
     "source": "main"
   },
   {
+    "number": "1408",
+    "country": "Norway",
+    "countryid": "ENMI43",
+    "oldcountryid": "NO43",
+    "odimcode": "norsg",
+    "location": "Rassegalvarri",
+    "status": "1",
+    "latitude": "69.218605",
+    "longitude": "23.439759",
+    "band": "C",
+    "doppler": "Y",
+    "polarization": "D",
+    "maxrange": "240",
+    "startyear": "2022",
+    "heightantenna": "604.1",
+    "diameterantenna": "4.2",
+    "beam": "1",
+    "gain": "44.4",
+    "frequency": "5.64",
+    "source": "main"
+  },
+  {
     "number": "1213",
     "country": "Poland",
     "countryid": "SOWR41",
