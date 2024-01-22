@@ -33,7 +33,3 @@ Data in the repository are not quality controlled. In some situations the automa
 ### Why are there gaps in the data?
 
 The weather radar data are sent from each national meteorological agency to OPERAs Baltrad data archive, from which we take the data, automatically processes it into bird profiles and add to Aloft data repository. Breakdowns can happen at any stage of this pipeline, and even though we try to back fill the data when interruptions occur, that will not always be possible.
-
-### How often is the data updated?
-
-Once a day?
