@@ -5569,12 +5569,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "1990",
-    "finishyear": "2018",
     "heightantenna": "123",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2018",
     "source": "archive"
   },
   {
@@ -5619,12 +5619,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "1991",
-    "finishyear": "2017",
     "heightantenna": "522",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2017",
     "source": "archive"
   },
   {
@@ -5669,12 +5669,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "2005",
-    "finishyear": "2018",
     "heightantenna": "68",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2018",
     "source": "archive"
   },
   {
@@ -5719,12 +5719,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "1992",
-    "finishyear": "2016",
     "heightantenna": "389",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2016",
     "source": "archive"
   },
   {
@@ -5769,12 +5769,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "1994",
-    "finishyear": "2017",
     "heightantenna": "457",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2017",
     "source": "archive"
   },
   {
@@ -5819,12 +5819,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "1995",
-    "finishyear": "2016",
     "heightantenna": "466",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2016",
     "source": "archive"
   },
   {
@@ -5869,12 +5869,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "1996",
-    "finishyear": "2020",
     "heightantenna": "647",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2020",
     "source": "archive"
   },
   {
@@ -5919,12 +5919,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "2001",
-    "finishyear": "2015",
     "heightantenna": "209",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2015",
     "source": "archive"
   },
   {
@@ -5969,12 +5969,12 @@
     "polarization": "S",
     "maxrange": "240",
     "startyear": "2003",
-    "finishyear": "2019",
     "heightantenna": "223",
     "diameterantenna": "4.2",
     "beam": "0.9",
     "gain": "44.9",
     "frequency": "5.604",
+    "finishyear": "2019",
     "source": "archive"
   },
   {
