@@ -8,7 +8,7 @@ VPTS CSV is a community developed **data exchange format** for biological signal
 
 VPTS CSV is a tabular format (rows and columns), allowing data to be expressed as CSV files. Columns/fields are defined below using [Table Schema](https://specs.frictionlessdata.io/table-schema/) properties. The format aims to be simple rather than comprehensive, containing the most important information, rather than all the available metadata.
 
-VPTS CSV is maintained at <https://github.com/enram/vpts-csv>.
+VPTS CSV is maintained at <https://github.com/aloftdata/vpts-csv>.
 
 ## Example
 
@@ -27,7 +27,7 @@ The key words `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `S
 - Data MUST include the names of the fields (e.g. as a header row).
 - Data MUST refer to fields using the names defined below.
 - Data MUST at least include the required fields (indicated with `*` below).
-- Data MUST use [this CSV dialect](https://github.com/enram/vpts-csv/blob/main/vpts-csv-dialect.json) when expressed as CSV. See [CSV dialect documentation](https://specs.frictionlessdata.io/csv-dialect/).
+- Data MUST use [this CSV dialect](https://github.com/aloftdata/vpts-csv/blob/main/vpts-csv-dialect.json) when expressed as CSV. See [CSV dialect documentation](https://specs.frictionlessdata.io/csv-dialect/).
 - `nodata` values SHOULD be expressed as empty values.
 - `undetect` values SHOULD be expressed as `NaN`.
 - Field values SHOULD match the data types as defined below.
@@ -38,4 +38,4 @@ The key words `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `S
 
 ## Fields
 
-Source: <https://github.com/enram/vpts-csv/blob/main/vpts-csv-table-schema.json>
+Source: <https://github.com/aloftdata/vpts-csv/blob/main/vpts-csv-table-schema.json>
