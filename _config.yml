@@ -6,7 +6,7 @@ title: Aloft
 
 # THEME SETTINGS
 theme: minima # Fallback theme
-remote_theme: peterdesmet/petridish@3.0
+remote_theme: peterdesmet/petridish@3.1
 pages_on_home: # Custom attribute for _layouts/home.html
   - title: Visualize # External page
     background: /assets/backgrounds/visualize.png
@@ -14,7 +14,6 @@ pages_on_home: # Custom attribute for _layouts/home.html
   - title: Browse # Internal page, see pages/browse.md
     background: /assets/backgrounds/browse.jpg
     url: /browse/
-tweets_on_home: false
 github_edit: true
 colors:
   links: "#295cc9"
