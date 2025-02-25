@@ -8,7 +8,7 @@ description: Template for homepage, adapted from and replacing petridish _layout
 {% if site.pages_on_home %}
   <div class="row cards">
     {% for item in site.pages_on_home %}
-      <div class="col-md-6{% if two_col %} col-lg-4{% endif %}">
+      <div class="col-md-6">
         {% include card.html %}
       </div>
     {% endfor %}
