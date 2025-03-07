@@ -2,7 +2,10 @@
 layout: home
 title: Aloft
 description: Bird movement data from European weather radars
-background: /assets/backgrounds/home.jpg # https://unsplash.com/photos/6TRUeJoOpE0
+background:
+  img: /assets/backgrounds/home.jpg
+  by: Brandon Russell
+  href: https://unsplash.com/photos/6TRUeJoOpE0
 permalink: /
 ---
 

@@ -1,7 +1,10 @@
 ---
 layout: browse # See _layouts/browse.html for page functionality
 title: Browse data
-background: /assets/backgrounds/browse.jpg # https://unsplash.com/photos/H83_BXx3ChY
+background:
+  img: /assets/backgrounds/browse.jpg
+  by: Dallas Reedy
+  href: https://unsplash.com/photos/H83_BXx3ChY
 permalink: /browse/
 ---
 
