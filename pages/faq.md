@@ -6,16 +6,16 @@ toc: true
 ---
 
 <!-- References -->
+[aloft_bucket]: /browse/
+[baltrad_vpts]: https://doi.org/10.5281/zenodo.14711024
 [data_paper]: https://doi.org/10.1038/s41597-025-04641-5
+[getrad]: https://aloftdata.github.io/getRad/
 [nilsson_revealing_2019]: https://doi.org/10.1111/ecog.04003
 [nilsson_revealing_zenodo]: https://doi.org/10.5281/zenodo.1172801
-[baltrad_vpts]: https://doi.org/10.5281/zenodo.14711024
-[uva_vpts]: https://doi.org/10.5281/zenodo.14711244
-[aloft_bucket]: /browse/
-[getrad]: https://aloftdata.github.io/getRad/
-[vpts_csv]: /vpts-csv/
 [odim_bird_profile]: https://github.com/adokter/vol2bird/wiki/ODIM-bird-profile-format-specification
 [opera]: http://eumetnet.eu/activities/observations-programme/current-activities/opera/
+[uva_vpts]: https://doi.org/10.5281/zenodo.14711244
+[vpts_csv]: /vpts-csv/
 
 ## Aloft bucket
 
@@ -95,3 +95,7 @@ Data in the repository are not quality controlled. In some situations the automa
 ### Why are there gaps in the data?
 
 The weather radar data are sent from each national meteorological agency to OPERAs Baltrad data archive, from which we take the data, automatically processes it into bird profiles and add to Aloft data repository. Breakdowns can happen at any stage of this pipeline, and even though we try to back fill the data when interruptions occur, that will not always be possible.
+
+<!-- ### What variables are reliable? -->
+
+<!-- ## CROW -->
