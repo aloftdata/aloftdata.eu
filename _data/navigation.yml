@@ -4,8 +4,6 @@
   href: https://crow.aloftdata.eu/
 - text: Browse
   href: /browse/
-- text: Dataset
-  href: /baltrad/
 - text: Resources
   menu:
   - text: Radars
@@ -19,5 +17,7 @@
   - text: "---"
   - text: Other datasets
     href: /datasets/
+- text: FAQ
+  href: /faq/
 - text: About
   href: /about/
