@@ -8,4 +8,4 @@ background:
 permalink: /browse/
 ---
 
-This page offers navigation for all data stored on the **Aloft data repository** at <https://aloftdata.s3-eu-west-1.amazonaws.com>. For download instructions, suggested citation and more, see the [BALTRAD dataset](/baltrad/) page and the [FAQ](/faq/).
+Browse all data stored on the **Aloft bucket** at <https://aloftdata.s3-eu-west-1.amazonaws.com>. For coverage, suggested citation and download instructions, see the [FAQ](/faq/).
