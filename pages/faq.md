@@ -8,6 +8,7 @@ toc: true
 <!-- References -->
 [aloft_bucket]: /browse/
 [baltrad_vpts]: https://doi.org/10.5281/zenodo.14711024
+[biorad]: https://adokter.github.io/bioRad/
 [data_paper]: https://doi.org/10.1038/s41597-025-04641-5
 [getrad]: https://aloftdata.github.io/getRad/
 [nilsson_revealing_2019]: https://doi.org/10.1111/ecog.04003
@@ -56,10 +57,36 @@ For more details on file properties, organization, naming and format, see [Desme
 
 You can download individual files directly from the [Aloft bucket][aloft_bucket]. For bulk downloads, you can use software tools that support S3, such as AWS CLI or rclone. We recommend the use of the [getRad][getrad] R package, which has a bulk download function:
 
-```R
+``` r
 library(getRad)
-fetch_vpts()
+library(lubridate, warn.conflicts = FALSE)
+
+# Download August 2020 data for radar SEANG
+my_vpts <- get_vpts(
+  radar = "seang",
+  datetime = lubridate::interval("20200801", "20200901 00:00:00"),
+  source = "baltrad"
+)
+
+# Use in bioRad
+library(bioRad)
+(my_vpts <- regularize_vpts(my_vpts))
+#> projecting on 900 seconds interval grid...
+#>                    Regular time series of vertical profiles (class vpts)
+#> 
+#>            radar:  seang 
+#>       # profiles:  2977 
+#> time range (UTC):  2020-08-01 00:00:00 - 2020-09-01 00:00:00 
+#>    time step (s):  900
+
+# Save data to file
+save(my_vpts, file = "my_vpts.rda")
+
+# Load saved data
+load("my_vpts.rda")
 ```
+
+The output of the function (`my_vpts`) can immediately be used in the [bioRad][biorad] R package for analyses or be downloaded to disk. See the [`get_vpts()` function documentation](https://aloftdata.github.io/getRad/reference/get_vpts.html) for details.
 
 ### How do I cite the data?
 
