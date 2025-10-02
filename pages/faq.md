@@ -55,7 +55,7 @@ For more details on file properties, organization, naming and format, see [Desme
 
 ### How do I download the data?
 
-You can download individual files directly from the [Aloft bucket][aloft_bucket]. For bulk downloads, you can use software tools that support S3, such as AWS CLI or rclone. We recommend the use of the [getRad][getrad] R package, which has a bulk download function:
+You can download individual files directly from the [Aloft bucket][aloft_bucket]. To download data from entire countries, use the [Zenodo deposit](https://doi.org/10.5281/zenodo.13683294) (includes data up until 2023). For bulk downloads with a custom range, you can use software tools that support S3, such as AWS CLI or rclone. We recommend the use of the [getRad][getrad] R package, which has a bulk download function:
 
 ``` r
 library(getRad)
