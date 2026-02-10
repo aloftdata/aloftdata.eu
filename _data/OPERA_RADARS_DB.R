@@ -23,6 +23,8 @@ radars <-
   dplyr::mutate(across(where(is.character), ~ if_else(.x == "", NA_character_, .x))) %>%
   # Remove erroneous records that have no country assigned
   dplyr::filter(!is.na(country)) %>%
+  # Merge "Slovak Republic" into "Slovakia"
+  dplyr::mutate(country = dplyr::if_else(country == "Slovak Republic", "Slovakia", country)) %>%
   # Move source column to end
   dplyr::relocate(source, .after = last_col()) %>%
   # Sort data for consistent git diffs
