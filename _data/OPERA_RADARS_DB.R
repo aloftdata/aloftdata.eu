@@ -18,15 +18,15 @@ radars_archive <- dplyr::mutate(radars_archive, source = "archive")
 # Combine and sort data
 radars <-
   radars_main %>%
-  dplyr::bind_rows(radars_archive) %>%
+  dplyr::bind_rows(radars_archive) |>
   # Set all "" to NA
-  dplyr::mutate(across(where(is.character), ~ if_else(.x == "", NA_character_, .x))) %>%
+  dplyr::mutate(across(where(is.character), ~ if_else(.x == "", NA_character_, .x))) |>
   # Remove erroneous records that have no country assigned
-  dplyr::filter(!is.na(country)) %>%
+  dplyr::filter(!is.na(country)) |>
   # Merge "Slovak Republic" into "Slovakia"
-  dplyr::mutate(country = dplyr::if_else(country == "Slovak Republic", "Slovakia", country)) %>%
+  dplyr::mutate(country = dplyr::if_else(country == "Slovak Republic", "Slovakia", country)) |>
   # Move source column to end
-  dplyr::relocate(source, .after = last_col()) %>%
+  dplyr::relocate(source, .after = last_col()) |>
   # Sort data for consistent git diffs
   dplyr::arrange(country, number, startyear)
 
