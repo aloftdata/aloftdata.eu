@@ -1220,7 +1220,7 @@
     "wigosid": "0-20010-0-07145",
     "odimcode": "frtra",
     "location": "Trappes",
-    "status": "1",
+    "status": "0",
     "latitude": "48.7746",
     "longitude": "2.0083",
     "heightofstation": "166.5",
@@ -2872,7 +2872,7 @@
     "wigosid": "0-352-6-isegs",
     "odimcode": "isegs",
     "location": "Fljotsdalsheidi",
-    "status": "1",
+    "status": "0",
     "latitude": "65.0279",
     "longitude": "-15.0382",
     "heightofstation": "693",
@@ -3033,7 +3033,7 @@
     "wmocode": "40179",
     "odimcode": "iltlv",
     "location": "Bet Dagan",
-    "status": "1",
+    "status": "0",
     "latitude": "32.007",
     "longitude": "34.8146",
     "heightofstation": "30",
@@ -3047,7 +3047,7 @@
     "beam": "1",
     "gain": "44",
     "frequency": "5.61",
-    "source": "main"
+    "source": "archive"
   },
   {
     "number": "1191",
@@ -4276,7 +4276,8 @@
     "beam": "0.94",
     "gain": "44.5",
     "frequency": "5.65",
-    "source": "main"
+    "finishyear": "2025",
+    "source": "archive"
   },
   {
     "number": "1280",
