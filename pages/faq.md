@@ -21,8 +21,8 @@ toc: true
 
 ## Aloft bucket
 
-### What data are in the bucket?
-
+<details markdown="1">
+<summary>What data are in the bucket?</summary>
 The [Aloft bucket][aloft_bucket] contains biological data that were created by processing European weather radar data with methods optimized for extracting bird targets ([vol2bird](https://github.com/adokter/vol2bird)). The resulting data are vertical profiles time series of biological targets (VPTS).
 
 The bucket contains data from 3 sources:
@@ -30,13 +30,15 @@ The bucket contains data from 3 sources:
 - `baltrad`: Data provided by OPERA member countries. Coverage: 151 radars, from 2012 to now. **Updated daily.** See [Desmet et al. (2025)][data_paper] for details.
 - `uva`: Data processed by the University of Amsterdam as part of several research projects. Coverage: 24 radars in Belgium, Germany and the Netherlands, from 2008 to 2023. See [Desmet et al. (2025)][data_paper] for details.
 - `ecog-04003`: Data processed for migration flyway research. Coverage: 84 radars, in autumn 2016. See [Nilsson and Dokter et al. (2019)][nilsson_revealing_2019] for details.
+</details>
 
-### How often are the data updated?
-
+<details markdown="1">
+<summary>How often are the data updated?</summary>
 `baltrad` data are updated daily. HDF5 data are typically available 24 hours after the radar collected the raw data, while daily and monthly summaries are available within 48 hours.
+</details>
 
-### How are the data organized?
-
+<details markdown="1">
+<summary>How are the data organized?</summary>
 Data are organized in the following hierarchical directories: `source`, `format`, `radar`, `year` (`month` and `day`). All data are available in 3 formats:
 
 - `hdf5`: [HDF5 output][odim_bird_profile] of vol2bird, 1 file per timestamp. Contains extensive metadata.
@@ -52,12 +54,13 @@ baltrad/monthly/seang/2020/seang_vpts_202008.csv.gz
 ```
 
 For more details on file properties, organization, naming and format, see [Desmet et al. (2025)][data_paper].
+</details>
 
-### How do I download the data?
-
+<details markdown="1">
+<summary>How do I download the data?</summary>
 You can download individual files directly from the [Aloft bucket][aloft_bucket]. To download data from entire countries, use the [Zenodo deposit](https://doi.org/10.5281/zenodo.13683294) (includes data up until 2023). For bulk downloads with a custom range, you can use software tools that support S3, such as AWS CLI or rclone. We recommend the use of the [getRad][getrad] R package, which has a bulk download function:
 
-``` r
+```r
 library(getRad)
 library(lubridate, warn.conflicts = FALSE)
 
@@ -87,9 +90,10 @@ load("my_vpts.rda")
 ```
 
 The output of the function (`my_vpts`) can immediately be used in the [bioRad][biorad] R package for analyses or be downloaded to disk. See the [`get_vpts()` function documentation](https://aloftdata.github.io/getRad/reference/get_vpts.html) for details.
+</details>
 
-### How do I cite the data?
-
+<details markdown="1">
+<summary>How do I cite the data?</summary>
 We recommend the citing the data as follows:
 
 - `baltrad`: cite [Desmet et al. (2025)][data_paper] and acknowledge OPERA (see below).
@@ -105,24 +109,29 @@ For increased reproducibility, you can also cite the deposited data:
 To acknowlegde OPERA:
 
 > We acknowledge the European Operational Program for Exchange of Weather Radar Information ([EUMETNET/OPERA][opera]) for providing access to European radar data, faciliated through a research-only license agreement between EUMETNET/OPERA members and ENRAM.
+</details>
 
-### What is the license?
-
+<details markdown="1">
+<summary>What is the license?</summary>
 The data in the bucket are available under a [Creative Commons Zero waiver](https://creativecommons.org/publicdomain/zero/1.0/).
+</details>
 
 ## Data quality
 
-### Why are only these radars/countries available?
-
+<details markdown="1">
+<summary>Why are only these radars/countries available?</summary>
 Currently most of the data comes to us from OPERA's BALTRAD data archive, which means that we are limited by the data available there. We continuously work with national meteorological agencies and EUMETNET/OPERA through various projects, hoping to both add more sites, data as well as increase the quality of data.
+</details>
 
-### Why is there no/bad data for this radar/country?
-
+<details markdown="1">
+<summary>Why is there no/bad data for this radar/country?</summary>
 Data in the bucket are not quality controlled. In some situations the automatic processing will not work well, or at all, with certain countries settings. You can check the [wiki][qa_wiki] so see a country by country discussion on data quality and you can also add your own comments and evaluations, especially if you have looked at the data more recently then the previous comments.
+</details>
 
-### Why are there gaps in the data?
-
+<details markdown="1">
+<summary>Why are there gaps in the data?</summary>
 The weather radar data are sent from each national meteorological agency to OPERA's BALTRAD data archive, from which we take the data, automatically processes it into bird profiles and add to Aloft bucket. Breakdowns can happen at any stage of this pipeline, and even though we try to back fill the data when interruptions occur, that will not always be possible.
+</details>
 
 <!-- ### What variables are reliable? -->
 
