@@ -35,6 +35,13 @@ The bucket contains data from 3 sources:
 <details markdown="1">
 <summary>How often are the data updated?</summary>
 `baltrad` data are updated daily. HDF5 data are typically available 24 hours after the radar collected the raw data, while daily and monthly summaries are available within 48 hours.
+
+For important changes, see the [changelog](/changelog/).
+</details>
+
+<details markdown="1">
+<summary>Are there any important changes?</summary>
+Yes, see the [changelog](/changelog/).
 </details>
 
 <details markdown="1">
