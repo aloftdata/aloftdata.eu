@@ -37,6 +37,13 @@ The key words `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `S
 - Data SHOULD have the same `height`s for all `datetime`s of a `radar`.
 - Fields SHOULD be organized in the order presented below.
 
+## Versions
+
+Version | Comments
+--- | ---
+[1.1](https://github.com/aloftdata/vpts-csv/releases/tag/v1.1) | `height_reference` added as a new required column. VPTS CSV 1.0 files without this column should be interpreted as `"sea"`.<br>`height` and `radar_height` type changed from integer to number.
+[1.0](https://github.com/aloftdata/vpts-csv/releases/tag/v1.0) | First release
+
 ## Fields
 
 Source: <https://github.com/aloftdata/vpts-csv/blob/main/vpts-csv-table-schema.json>
