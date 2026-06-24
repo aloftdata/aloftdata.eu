@@ -1,6 +1,7 @@
 ---
 layout: table-schema # See _layouts/table-schema.html for page functionality
 title: VPTS CSV
+toc: true
 permalink: /vpts-csv/
 ---
 
