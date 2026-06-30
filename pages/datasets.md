@@ -18,10 +18,13 @@ This historical dataset was collected for [Nilsson and Dokter et al. (2019)](htt
 
 {:.btn-group}
 [Dataset](https://doi.org/10.5281/zenodo.1172801){:.btn .btn-sm .btn-primary}
+[Publication](https://doi.org/10.1111/ecog.04003){:.btn .btn-sm .btn-light}
 [Browse data]({{ '/browse/?prefix=ecog-04003/' | relative_url }}){:.btn .btn-sm .btn-light}
 
-## The Cajun Data Set
+## Dark Ecology
 
-This historical dataset is published by Winner et al. (2022) and provides access to bird profile data for every **United States** weather radar scan from **1995 to 2018**. Bird profile data are formatted in the cajun format.
+This historical dataset is published by [Sheldon et al. (2026)](https://doi.org/10.64898/2026.06.20.733536) and provides access to bird profile data for every **United States** weather radar scan from **1995 to 2025**. Bird profile data are formatted in the cajun format.
 
-This dataset is not yet public.<!-- [Dataset](https://darkecology.github.io/cajun/){:.btn .btn-sm .btn-primary} -->
+{:.btn-group}
+[Dataset](https://github.com/darkecology/darkeco-dataset){:.btn .btn-sm .btn-primary}
+[Publication](https://doi.org/10.64898/2026.06.20.733536){:.btn .btn-sm .btn-light}
