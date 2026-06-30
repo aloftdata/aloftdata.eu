@@ -14,11 +14,11 @@ VPTS CSV is maintained at <https://github.com/aloftdata/vpts-csv>.
 ## Example
 
 ```
-radar,datetime,height,u,v,w,ff,dd,sd_vvp,gap,eta,dens,dbz,dbz_all,n,n_dbz,n_all,n_dbz_all,rcs,sd_vvp_threshold,vcp,radar_latitude,radar_longitude,radar_height,radar_wavelength,source_file
-KBGM,2016-09-01T00:02:00Z,0,,,,,,,TRUE,,,,,0,0,0,0,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
-KBGM,2016-09-01T00:02:00Z,200,,,,,,,TRUE,,,,,0,0,0,0,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
-KBGM,2016-09-01T00:02:00Z,400,,,,,,2.81,TRUE,30.8,2.8000000000000003,1.54,3.77,326,356,22485,28416,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
-KBGM,2016-09-01T00:02:00Z,600,4.14,3.84,12.17,5.65,47.2,2.8,FALSE,46.9,4.263636363636364,3.36,0.5,9006,13442,65947,104455,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
+radar,datetime,height,height_reference,u,v,w,ff,dd,sd_vvp,gap,eta,dens,dbz,dbz_all,n,n_dbz,n_all,n_dbz_all,rcs,sd_vvp_threshold,vcp,radar_latitude,radar_longitude,radar_height,radar_wavelength,source_file
+KBGM,2016-09-01T00:02:00Z,0,sea,,,,,,,TRUE,,,,,0,0,0,0,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
+KBGM,2016-09-01T00:02:00Z,200,sea,,,,,,,TRUE,,,,,0,0,0,0,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
+KBGM,2016-09-01T00:02:00Z,400,sea,,,,,,2.81,TRUE,30.8,2.8000000000000003,1.54,3.77,326,356,22485,28416,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
+KBGM,2016-09-01T00:02:00Z,600,sea,4.14,3.84,12.17,5.65,47.2,2.8,FALSE,46.9,4.263636363636364,3.36,0.5,9006,13442,65947,104455,11,2,,42.19972,-75.98472,519,10.6,s3://noaa-nexrad-level2/2016/09/01/KBGM/KBGM20160901_000212_V06
 ```
 
 ## Requirements
@@ -36,6 +36,13 @@ The key words `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `S
 - Data SHOULD be ordered by `datetime`, `height` and `source_file` within a `radar`.
 - Data SHOULD have the same `height`s for all `datetime`s of a `radar`.
 - Fields SHOULD be organized in the order presented below.
+
+## Versions
+
+Version | Comments
+--- | ---
+[1.1](https://github.com/aloftdata/vpts-csv/releases/tag/v1.1) | `height_reference` added as a new required column. VPTS CSV 1.0 files without this column should be interpreted as `"sea"`.<br>`height` and `radar_height` type changed from integer to number.
+[1.0](https://github.com/aloftdata/vpts-csv/releases/tag/v1.0) | First release
 
 ## Fields
 
